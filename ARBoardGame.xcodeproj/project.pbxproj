@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9FCBB3B61F9FD25C00469D2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCBB3B51F9FD25C00469D2C /* AppDelegate.swift */; };
-		9FCBB3B81F9FD25C00469D2C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBB3B71F9FD25C00469D2C /* art.scnassets */; };
 		9FCBB3BA1F9FD25C00469D2C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCBB3B91F9FD25C00469D2C /* GameViewController.swift */; };
 		9FCBB3BD1F9FD25C00469D2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBB3BB1F9FD25C00469D2C /* Main.storyboard */; };
 		9FCBB3BF1F9FD25C00469D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBB3BE1F9FD25C00469D2C /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		9FCBB3B21F9FD25C00469D2C /* ARBoardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBoardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCBB3B51F9FD25C00469D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FCBB3B71F9FD25C00469D2C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		9FCBB3B91F9FD25C00469D2C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9FCBB3BC1F9FD25C00469D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FCBB3BE1F9FD25C00469D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				9FCBB3B51F9FD25C00469D2C /* AppDelegate.swift */,
-				9FCBB3B71F9FD25C00469D2C /* art.scnassets */,
 				9FCBB3B91F9FD25C00469D2C /* GameViewController.swift */,
 				9FCBB3BB1F9FD25C00469D2C /* Main.storyboard */,
 				9FCBB3BE1F9FD25C00469D2C /* Assets.xcassets */,
@@ -126,7 +123,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FCBB3B81F9FD25C00469D2C /* art.scnassets in Resources */,
 				9FCBB3C21F9FD25C00469D2C /* LaunchScreen.storyboard in Resources */,
 				9FCBB3BF1F9FD25C00469D2C /* Assets.xcassets in Resources */,
 				9FCBB3BD1F9FD25C00469D2C /* Main.storyboard in Resources */,
@@ -282,7 +278,7 @@
 				DEVELOPMENT_TEAM = B9U9A77UGF;
 				INFOPLIST_FILE = ARBoardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dcc.ARBoardGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcc.arboardgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +293,7 @@
 				DEVELOPMENT_TEAM = B9U9A77UGF;
 				INFOPLIST_FILE = ARBoardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dcc.ARBoardGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcc.arboardgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
